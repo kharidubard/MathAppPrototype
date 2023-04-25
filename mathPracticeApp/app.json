@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mathPraticeApp",
-    "slug": "mathPraticeApp",
+    "name": "MathPraticeApp",
+    "slug": "MathPraticeApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

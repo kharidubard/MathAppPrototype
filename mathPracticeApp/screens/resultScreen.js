@@ -22,6 +22,7 @@ function ResultsScreen() {
         <TouchableOpacity style={styles.button} onPress={handlehomeScreenPress}>
         <Text style={styles.buttonText}>Home</Text>
       </TouchableOpacity>
+      <Text style= {styles.bottomText}>Make sure you complete a quiz to see the correct score</Text>
       </View>
     );
   }
@@ -55,6 +56,11 @@ function ResultsScreen() {
         color: 'white',
         fontWeight: 'bold',
         fontSize: 18,  
+    },
+    bottomText: {
+        fontSize: 12,
+        padding: 20,
+        fontStyle: 'italic'
     }
   });
   
